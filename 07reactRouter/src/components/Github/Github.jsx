@@ -8,7 +8,7 @@ function Github() {
     
     useEffect(() => {
         
-      fetch("https://api.github.com/Barkat0126")
+      fetch("https://api.github.com/users/barkat0126/followers")
       .then(Response => Response.json)
       .then(data => {
         console.log(data);
